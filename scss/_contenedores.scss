@@ -1,7 +1,7 @@
- .cuadros, .cuadrosPerfil, .info {
+ .cuadros, .cuadrosPerfil, .info, .containerRedes {
     padding: 12px 12px 0 12px;
     background-color: #466fe1db;
-    color: #fff;
+    color: $color-fuentes;
     font-size: 1.1rem;
 }
 
@@ -9,7 +9,7 @@
     font-size: 1.5rem;
 }
 
-.imgCuadros, .cuadros, .cuadrosPerfil, .info {
+.imgCuadros, .cuadros, .cuadrosPerfil, .info, .containerRedes {
     border: $color-fuentes solid 3px;
     border-radius: 0.6rem;
 }
@@ -42,4 +42,28 @@
 
 .terminos {
     @include links;
+}
+
+.containerRedes{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: $color-wf !important;
+
+    &:hover {
+        @include transicion;
+    }
+
+    img{
+        width: $width-logos;
+        margin-right: 1rem;
+    }
+
+    p{
+        color: $color-fuentes;
+        font-size: 1rem;
+        margin: auto;
+        width: 100%;
+        font-family: $font-retro;
+    }
 }

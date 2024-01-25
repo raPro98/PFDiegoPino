@@ -9,7 +9,7 @@ header {
 }
 
 .titulo {
-    font-family: 'Press Start 2P', system-ui;
+    font-family: $font-retro;
     font-size: 1rem;
     background: $color-wf;
     color: transparent;
@@ -18,7 +18,7 @@ header {
 
 .texto, .tituloMain {
     color: $color-fuentes;
-    font-family: 'Press Start 2P', system-ui;
+    font-family: $font-retro;
     font-size: 0.8rem;
 }
 

@@ -1,51 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WaterflameFans - Albumes</title>
+    <meta name="description" content="Conéctate con Waterflame en sus redes sociales oficiales. Siguelo en sus plataformas como Twitter, YouTube y SoundCloud para mantenerte al día con sus últimas creaciones y noticias.">
+    <title>WaterflameFans - Redes Sociales</title>
+    <link rel="icon" type="image/png" href="../img/logowf.avif">
+    <!-- ANIMATE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- ICONOS BS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- CSS BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS PROPIO -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body class="min-vh-100 d-flex flex-column">
     <!-- HEADER -->
-    <h1 class="m-0 fw-bold d-flex justify-content-center align-items-center texto">WaterflameFans - Redes Sociales.</h1>
+    <p class="m-0 fw-bold text-center pHeader">WaterflameFans - Redes Sociales de Waterflame.</p>
     <header class="navbar navbar-expand-lg mb-4 container-fluid position-sticky top-0">
-        <div class="container-xl px-xl-0 px-sm-5 px-3">
-            <a class="navbar-brand text-uppercase titulo" href="../index.html">waterflame</a>
-            <button class="navbar-toggler btnToggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-xl px-xl-0 px-3">
+            <a class="navbar-brand titulo mx-0" href="../index.html">WaterflameFans</a>
+            <button class="navbar-toggler btnToggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon btnToggler"></span>
             </button>
             <nav class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav column-gap-2">
+                <ul class="navbar-nav">
                     <li class="nav-item ps-2 ps-lg-0">
-                        <a class="nav-link float-end texto txtNav" href="../index.html">Inicio</a>
+                        <a class="nav-link float-end texto txtNav texto txtNav animate__animated animate__zoomIn" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item ps-2 ps-lg-0">
-                        <a class="nav-link float-end texto txtNav" href="albumes.html">Albumes</a>
+                        <a class="nav-link float-end texto txtNav texto txtNav animate__animated animate__zoomIn" href="albumes.html">Álbumes</a>
                     </li>
                     <li class="nav-item ps-2 ps-lg-0">
-                        <a class="nav-link float-end texto txtNav" href="top.html">Top 10</a>
+                        <a class="nav-link float-end texto txtNav texto txtNav animate__animated animate__zoomIn" href="sencillos.html">Sencillos</a>
                     </li>
                     <li class="nav-item ps-2 ps-lg-0">
-                        <a class="nav-link float-end texto txtNav" href="sencillos.html">Sencillos</a>
+                        <a class="nav-link float-end texto txtNav texto txtNav animate__animated animate__zoomIn" href="top.html">Top10</a>
                     </li>
                     <li class="nav-item ps-2 ps-lg-0">
-                        <a class="nav-link float-end texto txtNav" href="">Contacto</a>
+                        <a class="nav-link float-end texto txtNav texto txtNav animate__animated animate__zoomIn" href="top.html">Redes</a>
+                    </li>
+                    <li class="nav-item ps-2 ps-lg-0">
+                        <a class="nav-link float-end texto txtNav texto txtNav animate__animated animate__zoomIn" href="informacion.html">Información</a>
+                    </li>
+                    <li class="nav-item ps-2 ps-lg-0">
+                        <a class="nav-link float-end texto txtNav texto txtNav animate__animated animate__zoomIn" href="perfil.html">Ingresar</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-
+    <h1 class="mx-auto mb-3 tituloMain pt-1">redes sociales</h1>
+    <main class="container-md mx-auto mb-4 row row-cols-xl-3 row-cols-md-2 row-cols-1 mainRedes">
+        <section class="col p-2 m-0">
+            <a href="https://www.waterflame.com/" target="_blank" class="p-3 containerRedes">
+                <img src="../img/logowf.avif" alt="logo de Waterflame">
+                <p class="text-center pt-1">Página Oficial.</p>
+            </a>
+        </section>
+        <section class="col p-2 m-0">
+            <a href="https://www.youtube.com/@WaterflameMusic" target="_blank" class="p-3 containerRedes">
+                <img src="../img/logoyoutube.avif" alt="logo de Youtube">
+                <p class="text-center pt-1">Youtube.</p>
+            </a>
+        </section>
+        <section class="col p-2 m-0">
+            <a href="https://open.spotify.com/intl-es/artist/7biIlpW0y5KqYIehTQz1wz" target="_blank" class="p-3 containerRedes">
+                <img src="../img/logospotify.avif" alt="logo de Spotify">
+                <p class="text-center pt-1">Spotify.</p>
+            </a>
+        </section>
+        <section class="col p-2 m-0">
+            <a href="https://waterflame.newgrounds.com/" target="_blank" class="p-3 containerRedes">
+                <img src="../img/logonewreal.avif" alt="logo de Newgrounds">
+                <p class="text-center pt-1">Newgrounds.</p>
+            </a>
+        </section>
+        <section class="col p-2 m-0">
+            <a href="https://soundcloud.com/waterflame89" target="_blank" class="p-3 containerRedes">
+                <img src="../img/logosoundc.avif" alt="logo de Soundcloud">
+                <p class="text-center pt-1">Soundcloud</p>
+            </a>
+        </section>
+        <section class="col p-2 m-0">
+            <a href="https://www.facebook.com/Waterflameworkshop/?locale=es_LA" target="_blank" class="p-3 containerRedes">
+                <img src="../img/logofacebook.avif" alt="logo de Facebook">
+                <p class="text-center pt-1">Facebook</p>
+            </a>
+        </section>
+        <section class="col p-2 m-0">
+            <a href="https://twitter.com/WaterflameMusic/status/1452789646849630211" target="_blank" class="p-3 containerRedes">
+                <img src="../img/logox.avif" alt="logo de Facebook">
+                <p class="text-center pt-1">X (Twitter)</p>
+            </a>
+        </section>
+        <section class="col p-2 m-0">
+            <a href="https://discord.gg/hpraYhGJ" target="_blank" class="p-3 containerRedes">
+                <img src="../img/logodiscord.avif" alt="logo de Discord">
+                <p class="text-center pt-1">Discord.</p>
+            </a>
+        </section>
+    </main>
     <!-- FOOTER -->
-    <footer class="container-fluid mx-auto mt-4 pt-4 row">
+    <footer class="container-fluid mx-auto mt-auto pt-4 row">
         <div class="col-sm-6 col-12">
             <div class="float-sm-end mx-auto datosFooter">
                 <p class="text-uppercase mb-2 texto txtFooter">waterflame</p>
@@ -99,10 +157,7 @@
         <p class="col-12 text-center mb-0 mt-3 texto txtFooter">WaterflameFans.cl - 2024.</p>
         <p class="col-12 text-center px-0 mb-2 texto txtFooter">Todos los derechos Reservados.</p>
     </footer>
-
     <!-- SCRIPT BS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

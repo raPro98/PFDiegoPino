@@ -57,7 +57,7 @@ body {
   text-transform: uppercase;
 }
 
-.cuadros, .cuadrosPerfil, .info {
+.cuadros, .cuadrosPerfil, .info, .containerRedes {
   padding: 12px 12px 0 12px;
   background-color: rgba(70, 111, 225, 0.8588235294);
   color: #fff;
@@ -68,7 +68,7 @@ body {
   font-size: 1.5rem;
 }
 
-.imgCuadros, .cuadros, .cuadrosPerfil, .info {
+.imgCuadros, .cuadros, .cuadrosPerfil, .info, .containerRedes {
   border: #fff solid 3px;
   border-radius: 0.6rem;
 }
@@ -105,6 +105,28 @@ body {
 .terminos:hover {
   color: #444;
   transition: 0.1s;
+}
+
+.containerRedes {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: linear-gradient(30deg, #3ecdf5, #f67f1d) !important;
+}
+.containerRedes:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+.containerRedes img {
+  width: 3rem;
+  margin-right: 1rem;
+}
+.containerRedes p {
+  color: #fff;
+  font-size: 1rem;
+  margin: auto;
+  width: 100%;
+  font-family: "Press Start 2P", system-ui;
 }
 
 .btnCard, .btnMusica, .btnVer {
@@ -202,6 +224,7 @@ body {
 
 footer {
   background: linear-gradient(90deg, rgba(148, 81, 225, 0.8588235294), rgba(230, 140, 186, 0.8588235294));
+  bottom: 0;
 }
 footer li {
   padding: 3px 0;

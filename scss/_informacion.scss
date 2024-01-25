@@ -45,7 +45,7 @@
     grid-area: infoRes;
 
     img{
-        width: 3rem;
+        width: $width-logos;
 
         &:hover {
             @include transicion;
