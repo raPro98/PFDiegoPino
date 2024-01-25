@@ -48,7 +48,6 @@
     display: flex;
     justify-content: space-between;
     text-decoration: none;
-    background-color: $color-wf !important;
 
     &:hover {
         @include transicion;
