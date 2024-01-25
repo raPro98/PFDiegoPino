@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Lines&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monda&display=swap");
+header {
+  background: linear-gradient(45deg, #2121ef, #941df6);
+  z-index: 2;
+}
+
+.btnToggler {
+  color: #fff !important;
+  border-color: #fff;
+}
+
+.titulo {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 1rem;
+  background: linear-gradient(30deg, #3ecdf5, #f67f1d);
+  color: transparent;
+  background-clip: text;
+}
+
+.texto, .tituloMain {
+  color: #fff;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 0.8rem;
+}
+
+.pHeader {
+  background: rgba(207, 132, 243, 0.8588235294);
+  height: 2rem;
+  font-family: "Monda", sans-serif !important;
+  font-size: 1.2rem !important;
+  color: #000 !important;
+  line-height: 2rem;
+}
+
+.titulo:hover, .txtNav:hover {
+  background: linear-gradient(90deg, #f67f1d, #3ecdf5);
+  color: transparent !important;
+  background-clip: text;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+body {
+  background-image: url(../img/cyberpunkdekstop.avif);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.tituloMain {
+  font-size: 2rem;
+  background: linear-gradient(90deg, rgba(148, 29, 246, 0.8588235294), rgba(235, 58, 211, 0.8588235294));
+  width: 24rem;
+  border-radius: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cuadros, .cuadrosPerfil, .info {
+  padding: 12px 12px 0 12px;
+  background-color: rgba(70, 111, 225, 0.8588235294);
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.tituloCard {
+  font-size: 1.5rem;
+}
+
+.imgCuadros, .cuadros, .cuadrosPerfil, .info {
+  border: #fff solid 3px;
+  border-radius: 0.6rem;
+}
+
+.carouselBorder {
+  border-radius: 0.6rem;
+}
+
+.tituloCanciones {
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+}
+
+.escuchalo {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.containerSencillos {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.cuadrosPerfil {
+  height: 32rem;
+}
+
+.terminos {
+  color: #000;
+}
+.terminos:hover {
+  color: #444;
+  transition: 0.1s;
+}
+
+.btnCard, .btnMusica, .btnVer {
+  background: linear-gradient(30deg, #3ecdf5, #f67f1d);
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6039215686);
+  font-weight: 500;
+}
+
+.btnCard:hover {
+  background: rgba(33, 240, 82, 0.6235294118) !important;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.btnMusica {
+  width: 9rem;
+}
+.btnMusica:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.btnVer:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.btnYoutube {
+  background: rgb(255, 0, 0) !important;
+}
+
+.btnSpotify {
+  background: rgb(0, 200, 0) !important;
+}
+
+.btnNewgrounds {
+  background: rgb(240, 113, 22) !important;
+}
+
+.btnCanciones {
+  width: 6rem;
+}
+
+.containerInfo {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 12rem) auto;
+  gap: 1rem;
+  grid-template-areas: "infoWF infoWF infoWF infoWF infoCopy infoCopy" "infoWF infoWF infoWF infoWF infoCopy infoCopy" "infoCollab infoCollab infoCollab infoCollab infoCopy infoCopy" "infoCollab infoCollab infoCollab infoCollab infoCopy infoCopy" "infoRes infoRes infoRes infoRes infoRes infoRes" "infoRes infoRes infoRes infoRes infoRes infoRes";
+}
+
+.info {
+  font-weight: 500;
+}
+
+.infoWF {
+  background-color: rgba(70, 204, 225, 0.937254902);
+  grid-area: infoWF;
+}
+
+.infoCollab {
+  background-color: rgba(246, 127, 29, 0.937254902);
+  grid-area: infoCollab;
+}
+
+.infoCopy {
+  background-color: rgba(70, 111, 225, 0.937254902);
+  grid-area: infoCopy;
+}
+.infoCopy a {
+  color: #000;
+}
+.infoCopy a:hover {
+  color: #444;
+  transition: 0.1s;
+}
+
+.contImgInfoRes {
+  display: grid;
+  grid-template-columns: repeat(10, 3rem);
+}
+
+.infoRestante {
+  background-color: rgba(236, 118, 191, 0.937254902);
+  grid-area: infoRes;
+}
+.infoRestante img {
+  width: 3rem;
+}
+.infoRestante img:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+footer {
+  background: linear-gradient(90deg, rgba(148, 81, 225, 0.8588235294), rgba(230, 140, 186, 0.8588235294));
+}
+footer li {
+  padding: 3px 0;
+}
+footer li:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.datosFooter {
+  width: 200px;
+}
+
+.liFooter {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.logoNewgrounds {
+  width: 1.2rem;
+}
+
+@media screen and (max-width: 1299px) {
+  .containerSencillos {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media screen and (max-width: 991px) {
+  .tituloMain {
+    font-size: 1.2rem !important;
+  }
+  .cuadrosPerfil {
+    width: 32rem;
+  }
+  .containerSencillos {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .info {
+    font-size: 0.9rem;
+  }
+  .info h2, .info h3 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tituloMain {
+    font-size: 1rem !important;
+  }
+  body {
+    background-image: url(../img/cyberpunkmobile.jpg);
+  }
+  .info {
+    font-size: 0.8rem;
+  }
+  .txtFooter {
+    font-size: 0.7rem;
+  }
+  .logoNewgrounds {
+    width: 1rem;
+  }
+  .liFooter {
+    font-size: 1rem;
+  }
+  .cuadros {
+    width: 18rem !important;
+    font-size: 1rem;
+  }
+  .btnMusica {
+    width: 6.8rem;
+  }
+  .cuadroRegistro {
+    height: 50rem;
+  }
+  .containerInfo {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, auto);
+    gap: 1rem;
+    grid-template-areas: "infoWF" "infoCollab" "infoCopy" "infoRes";
+  }
+  .info {
+    height: 100%;
+  }
+  .info h2, .info h3 {
+    font-size: 1rem;
+  }
+  .contImgInfoRes {
+    display: grid;
+    grid-template-columns: repeat(10, 2.5rem);
+  }
+  .infoRestante img {
+    width: 2.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .pHeader {
+    font-size: 0.8rem !important;
+  }
+  .titulo,
+  .cuadrosPerfil {
+    font-size: 1rem;
+  }
+  .tituloMain {
+    font-size: 1.2rem;
+    width: 260px;
+  }
+  .cuadrosPerfil {
+    width: 100%;
+  }
+  .contImgInfoRes {
+    display: grid;
+    grid-template-columns: repeat(5, 2rem);
+  }
+  .infoRestante img {
+    width: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

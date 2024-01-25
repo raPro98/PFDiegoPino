@@ -1,0 +1,45 @@
+ .cuadros, .cuadrosPerfil, .info {
+    padding: 12px 12px 0 12px;
+    background-color: #466fe1db;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.tituloCard {
+    font-size: 1.5rem;
+}
+
+.imgCuadros, .cuadros, .cuadrosPerfil, .info {
+    border: $color-fuentes solid 3px;
+    border-radius: 0.6rem;
+}
+
+.carouselBorder {
+    border-radius: 0.6rem;
+}
+
+.tituloCanciones {
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-bottom: 2px solid $color-fuentes;
+    display: inline-block;
+}
+
+.escuchalo {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.containerSencillos {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cuadrosPerfil {
+    height: 32rem;
+}
+
+.terminos {
+    @include links;
+}

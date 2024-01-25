@@ -1,0 +1,56 @@
+.containerInfo {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 12rem) auto;
+    gap: 1rem;
+    grid-template-areas:
+    "infoWF infoWF infoWF infoWF infoCopy infoCopy"
+    "infoWF infoWF infoWF infoWF infoCopy infoCopy"
+    "infoCollab infoCollab infoCollab infoCollab infoCopy infoCopy"
+    "infoCollab infoCollab infoCollab infoCollab infoCopy infoCopy"
+    "infoRes infoRes infoRes infoRes infoRes infoRes"
+    "infoRes infoRes infoRes infoRes infoRes infoRes";
+}
+
+.info {
+    font-weight: 500;
+}
+
+.infoWF {
+    background-color: #46cce1ef;
+    grid-area: infoWF;
+}
+
+.infoCollab {
+    background-color: #f67f1def;
+    grid-area: infoCollab;
+}
+
+.infoCopy {
+    background-color: #466fe1ef;
+    grid-area: infoCopy;
+
+    a{
+        @include links;
+    }
+}
+
+.contImgInfoRes {
+    display: grid;
+    grid-template-columns: repeat(10, 3rem);
+}
+
+.infoRestante {
+    background-color: #ec76bfef;
+    grid-area: infoRes;
+
+    img{
+        width: 3rem;
+
+        &:hover {
+            @include transicion;
+        }
+    }
+}
+
+

@@ -1,0 +1,125 @@
+@media screen and (max-width: 1299px) {
+    .containerSencillos {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tituloMain {
+        font-size: 1.2rem !important;
+    }
+
+    .cuadrosPerfil {
+        width: 32rem;
+    }
+
+    .containerSencillos {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .info {
+        font-size: 0.9rem;
+
+        h2, h3 {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .tituloMain {
+        font-size: 1rem !important;
+    }
+
+    body {
+        background-image: url(../img/cyberpunkmobile.jpg);
+    }
+
+    .info {
+        font-size: 0.8rem;
+    }
+
+    .txtFooter {
+        font-size: 0.7rem;
+    }
+
+    .logoNewgrounds {
+        width: 1rem;
+    }
+
+    .liFooter {
+        font-size: 1rem;
+    }
+
+    .cuadros {
+        width: 18rem !important;
+        font-size: 1rem;
+    }
+
+    .btnMusica {
+        width: 6.8rem;
+    }
+
+    .cuadroRegistro {
+        height: 50rem;
+    }
+
+    .containerInfo {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, auto);
+        gap: 1rem;
+        grid-template-areas:
+        "infoWF"
+        "infoCollab"
+        "infoCopy"
+        "infoRes";
+    }
+
+    .info {
+        height: 100%;
+
+        h2,h3 {
+            font-size: 1rem;
+        }
+    }
+
+    .contImgInfoRes {
+        display: grid;
+        grid-template-columns: repeat(10, 2.5rem);
+    }
+
+    .infoRestante img {
+        width: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .pHeader {
+        font-size: 0.8rem !important;
+    }
+
+    .titulo,
+    .cuadrosPerfil {
+        font-size: 1rem;
+    }
+
+    .tituloMain {
+        font-size: 1.2rem;
+        width: 260px;
+    }
+
+    .cuadrosPerfil {
+        width: 100%;
+    }
+
+    .contImgInfoRes {
+        display: grid;
+        grid-template-columns: repeat(5, 2rem);
+    }
+
+    .infoRestante img {
+        width: 2rem;
+    }
+}

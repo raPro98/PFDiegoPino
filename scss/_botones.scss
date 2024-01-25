@@ -1,0 +1,39 @@
+ .btnCard, .btnMusica, .btnVer {
+    background: $color-wf;
+    border: none;
+    box-shadow: 5px 5px 10px #0000009a;
+    font-weight: 500;
+}
+
+.btnCard:hover {
+    background: #21f0529f !important;
+    @include transicion;
+}
+
+.btnMusica {
+    width: 9rem;
+
+    &:hover {
+        @include transicion;
+    }
+}
+
+.btnVer:hover {
+    @include transicion;
+}
+
+.btnYoutube {
+    background: rgb(255, 0, 0) !important;
+}
+
+.btnSpotify {
+    background: rgb(0, 200, 0) !important;
+}
+
+.btnNewgrounds {
+    background: rgb(240, 113, 22) !important;
+}
+
+.btnCanciones {
+    width: 6rem;
+}

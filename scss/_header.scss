@@ -1,0 +1,39 @@
+header {
+    background: linear-gradient(45deg, #2121ef, #941df6);
+    z-index: 2;
+}
+
+.btnToggler {
+    color: #fff !important;
+    border-color: #fff;
+}
+
+.titulo {
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 1rem;
+    background: $color-wf;
+    color: transparent;
+    background-clip: text;
+}
+
+.texto, .tituloMain {
+    color: $color-fuentes;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.8rem;
+}
+
+.pHeader {
+    background: #cf84f3db;
+    height: 2rem;
+    font-family: 'Monda', sans-serif !important;
+    font-size: 1.2rem !important;
+    color: $color-negro !important;
+    line-height: 2rem;
+}
+
+.titulo:hover, .txtNav:hover {
+    background: linear-gradient(90deg, #f67f1d, #3ecdf5);
+    color: transparent !important;
+    background-clip: text;
+    @include transicion;
+}

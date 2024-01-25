@@ -1,0 +1,13 @@
+@mixin links {
+    color: $color-negro;
+
+    &:hover {
+        color: #444;
+        transition: 0.1s;
+    }
+}
+
+@mixin transicion {
+    transform: scale(1.1);
+    transition: 0.1s;
+}

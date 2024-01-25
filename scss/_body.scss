@@ -1,0 +1,15 @@
+body{
+    background-image: url(../img/cyberpunkdekstop.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.tituloMain{
+    font-size: 2rem;
+    background: linear-gradient(90deg, #941df6db, #eb3ad3db);
+    width: 24rem;
+    border-radius: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
