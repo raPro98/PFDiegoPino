@@ -18,7 +18,7 @@
     <!-- CSS PROPIO -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="mx-auto">
+<body>
     <!-- HEADER -->
     <p class="m-0 fw-bold text-center pHeader">WaterflameFans - Inicio.</p>
     <header class="navbar navbar-expand-lg mb-4 container-fluid position-sticky top-0">
@@ -33,7 +33,7 @@
                         <a class="nav-link float-end texto txtNav texto txtNav animate__animated animate__zoomIn" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item ps-2 ps-lg-0">
-                        <a class="nav-link float-end texto txtNav texto txtNav animate__animated animate__zoomIn" href="html/albumes.html">Albumes</a>
+                        <a class="nav-link float-end texto txtNav texto txtNav animate__animated animate__zoomIn" href="html/albumes.html">Álbumes</a>
                     </li>
                     <li class="nav-item ps-2 ps-lg-0">
                         <a class="nav-link float-end texto txtNav texto txtNav animate__animated animate__zoomIn" href="html/sencillos.html">Sencillos</a>
@@ -55,12 +55,13 @@
         </div>
     </header>
     <h1 class="mx-auto mb-3 tituloMain pt-1">waterflame</h1>
-    <main class="row mx-auto px-0 row-gap-4 container-md">
+    <main class="container">
+        <div class="row gx-4 gy-4">
         <!-- ALBUMES -->
-        <section class="col-12 col-md-6 px-0 container-fluid">
+        <section class="col-12 col-md-6 px-0">
             <div class="card float-md-end me-md-4 mx-auto cuadros" data-aos="zoom-in-right" style="width: 20rem;">
                 <a href="html/albumes.html" class="p-0 m-0">
-                    <img src="img/albumes.jpg" class="card-img-top imgCuadros" alt="Albumes de Waterflame">
+                    <img src="img/albumes.avif" class="card-img-top imgCuadros" alt="Albumes de Waterflame">
                 </a>
                 <div class="card-body">
                     <h2 class="card-title text-center tituloCard">Albumes</h2>
@@ -72,19 +73,19 @@
             </div>
         </section>
         <!-- SENCILLOS -->
-        <section class="col-12 col-md-6 px-0 container-fluid">
+        <section class="col-12 col-md-6 px-0">
             <div class="card ms-md-4 mx-auto cuadros" data-aos="zoom-in-left" style="width: 20rem;">
                 <div id="carouselExampleRide" class="carousel slide imgCuadros" data-bs-ride="carousel">
                     <a href="html/sencillos.html" class="p-0 m-0">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img/clutterfunk2.jpeg" class="d-block w-100 carouselBorder" alt="Canción clutterfunk 2.2">
+                                <img src="img/clutterfunk2.avif" class="d-block w-100 carouselBorder" alt="Canción clutterfunk 2.2">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/melodysalad.jpg" class="d-block w-100 carouselBorder" alt="Canción Melody Salad">
+                                <img src="img/melodysalad.avif" class="d-block w-100 carouselBorder" alt="Canción Melody Salad">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/timemachine.jpg" class="d-block w-100 carouselBorder" alt="Canción Time Machine 2">
+                                <img src="img/timem2.avif" class="d-block w-100 carouselBorder" alt="Canción Time Machine 2">
                             </div>
                         </div>
                     </a>
@@ -110,7 +111,7 @@
         <section class="col-12 col-md-6 px-0">
             <div class="card float-md-end me-md-4 mx-auto cuadros" data-aos="zoom-in-right" style="width: 20rem;">
                 <a href="html/top.html" class="p-0 m-0">
-                    <img src="img/top10.jpg" class="card-img-top imgCuadros" alt="Albumes de Waterflame">
+                    <img src="img/top10.avif" class="card-img-top imgCuadros" alt="Albumes de Waterflame">
                 </a>
                 <div class="card-body">
                     <h2 class="card-title text-center tituloCard">Top 10</h2>
@@ -122,10 +123,10 @@
             </div>
         </section>
         <!-- REDES SOCIALES -->
-        <section class="col-12 col-md-6 px-0 container-fluid">
+        <section class="col-12 col-md-6 px-0">
             <div class="card ms-md-4 mx-auto cuadros" data-aos="zoom-in-left" style="width: 20rem;">
                 <a href="html/redes.html" class="p-0 m-0">
-                    <img src="img/rsociales.jpg" class="card-img-top imgCuadros" alt="Redes Sociales de Waterflame">
+                    <img src="img/rsociales.avif" class="card-img-top imgCuadros" alt="Redes Sociales de Waterflame">
                 </a>
                 <div class="card-body">
                     <h2 class="card-title text-center tituloCard">Redes Sociales</h2>
@@ -136,6 +137,7 @@
                 </div>
             </div>
         </section>
+        </div>
     </main>
     <!-- FOOTER -->
     <footer class="container-fluid mx-auto mt-4 pt-4 row">

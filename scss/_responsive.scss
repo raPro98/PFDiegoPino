@@ -34,7 +34,7 @@
     }
 
     body {
-        background-image: url(../img/cyberpunkmobile.jpg);
+        background-image: url(../img/cyberpunkmobile.avif);
     }
 
     .info {
@@ -100,8 +100,7 @@
         font-size: 0.8rem !important;
     }
 
-    .titulo,
-    .cuadrosPerfil {
+    .titulo, .cuadrosPerfil {
         font-size: 1rem;
     }
 
@@ -121,5 +120,12 @@
 
     .infoRestante img {
         width: 2rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .cuadros {
+        width: 100% !important;
+        margin-right: 0 !important;
     }
 }
