@@ -64,6 +64,10 @@ body {
   font-size: 1.1rem;
 }
 
+.cuadrosTop {
+  background-color: rgba(70, 111, 225, 0.8588235294);
+}
+
 .tituloCard {
   font-size: 1.5rem;
 }
@@ -168,6 +172,10 @@ body {
 
 .btnCanciones {
   width: 6rem;
+}
+
+.btnBusc {
+  color: #fff;
 }
 
 .containerInfo {
@@ -345,8 +353,8 @@ footer li:hover {
 }
 @media screen and (max-width: 360px) {
   .cuadros {
-    width: 100% !important;
-    margin-right: 0 !important;
+    width: 90% !important;
+    margin: 0 auto;
   }
 }
 
