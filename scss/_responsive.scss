@@ -121,6 +121,21 @@
     .infoRestante img {
         width: 2rem;
     }
+
+    .carroCompras{
+        width: 4rem;
+        height: 4rem;
+    
+        .logoCarro{
+            transform: scale(2);
+        }
+    
+        .numeroCarro{
+            font-size: 1rem;
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -128,4 +143,9 @@
         width: 90% !important;
         margin: 0 auto;
     }
+}
+
+
+.oculto{
+    display: none !important;
 }

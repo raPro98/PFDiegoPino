@@ -1,11 +1,11 @@
- .btnCard, .btnMusica, .btnVer {
+ .btnCard, .btnMusica, .btnVer, .carroCompras {
     background: $color-wf;
     border: none;
     box-shadow: 5px 5px 10px #0000009a;
     font-weight: 500;
 }
 
-.btnCard:hover {
+.btnCard:hover, .carroCompras:hover {
     background: #21f0529f !important;
     @include transicion;
 }
@@ -16,6 +16,52 @@
     &:hover {
         @include transicion;
     }
+}
+
+.btnTienda{
+    width: 100px;
+    background-color: #cf84f3db;
+    border: none;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+.btnTienda:active{
+    background-color: $color-wf !important;
+}
+
+.contBtnCarro{
+    margin-bottom: 5rem;
+
+    .carroCompras{
+        width: 6rem;
+        height: 6rem;
+        color: $color-fuentes;
+        border-radius: 50%;
+    
+        .logoCarro{
+            transform: scale(3);
+        }
+    
+        .numeroCarro{
+            font-size: 1.5rem;
+            width: 2rem;
+            height: 2rem;
+            background-color: #941df6;
+            border-radius: 50%;
+            top: 5px;
+            right: 5px;
+        }
+    }
+}
+
+.basura{
+    border: none;
+    background: none;
+    color: rgb(255, 0, 0);
+    transform: scale(2);
 }
 
 .btnVer:hover {
